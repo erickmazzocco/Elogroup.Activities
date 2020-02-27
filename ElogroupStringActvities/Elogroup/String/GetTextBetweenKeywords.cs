@@ -50,7 +50,7 @@ namespace Elogroup.StringActivities
             try
             {
                 OutputText.Set(context, 
-                    GetText(
+                    ExecuteMethod(
                         FirstKeyword.Get(context), 
                         SecondKeyword.Get(context), 
                         InputText.Get(context), 
@@ -68,7 +68,7 @@ namespace Elogroup.StringActivities
             }                
         }
 
-        protected string GetText(string firstKey, string secondKey, string Text, bool ignoreCase)
+        public string ExecuteMethod(string firstKey, string secondKey, string Text, bool ignoreCase)
         {
             var stringComparison = IsIgnoreCase(ignoreCase);
 

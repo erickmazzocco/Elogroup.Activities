@@ -27,7 +27,7 @@ namespace Elogroup.StringActivities
         {
             try
             {
-                OutputText.Set(context, ReplaceAccented(
+                OutputText.Set(context, ExecuteMethod(
                     InputText.Get(context)
                 ));
                                     
@@ -43,7 +43,7 @@ namespace Elogroup.StringActivities
             }                
         }
 
-        protected string ReplaceAccented(string InputText)
+        public string ExecuteMethod(string InputText)
         {
             var normalizedString = InputText.Normalize(NormalizationForm.FormD);
             var stringBuilder = new StringBuilder();

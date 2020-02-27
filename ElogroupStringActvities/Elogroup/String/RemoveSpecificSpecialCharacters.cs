@@ -34,7 +34,7 @@ namespace Elogroup.StringActivities
             try
             {
                 OutputText.Set(context, 
-                    ApplyRegexRule(
+                    ExecuteMethod(
                         InputText.Get(context),
                         Characters.Get(context)
                     ));
@@ -51,7 +51,7 @@ namespace Elogroup.StringActivities
             }
         }
 
-        protected string ApplyRegexRule(string InputText, string Characters)
+        public string ExecuteMethod(string InputText, string Characters)
         {
             return Regex.Replace(
                 InputText, 

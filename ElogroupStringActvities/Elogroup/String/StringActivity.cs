@@ -10,6 +10,11 @@ namespace Elogroup.StringActivities
 {
     public abstract class StringActivity : CodeActivity
     {
+        public StringActivity()
+        {
+
+        }
+
         public enum ThrowOptions
         {
             No,
