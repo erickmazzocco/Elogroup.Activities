@@ -59,6 +59,7 @@
     <Compile Include="Tests\RemoveSpecialCharactersTests.cs" />
     <Compile Include="Tests\RemoveSpecificSpecialCharactersTests.cs" />
     <Compile Include="Tests\ReplaceAccentedCharactersTests.cs" />
+    <Compile Include="Tests\GetOnlyNumbersTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

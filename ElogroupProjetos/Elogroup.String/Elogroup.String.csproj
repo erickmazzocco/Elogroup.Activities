@@ -46,6 +46,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Activities\GetOnlyNumbers.cs" />
+    <Compile Include="Code\GetOnlyNumbers.cs" />
     <Compile Include="Code\GetTextBetweenKeywords.cs" />
     <Compile Include="Code\RemoveSpecialCharacters.cs" />
     <Compile Include="Code\RemoveSpecificSpecialCharacters.cs" />
