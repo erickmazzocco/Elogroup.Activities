@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>Elogroup.Utils.Activities</id>
+    <version>1.0.0.7</version>
+    <title>Elogroup.Utils.Activities</title>
+    <authors>Érick Mazzocco</authors>
+    <owners>Érick Mazzocco</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <license type="file">license.txt</license>
+    <licenseUrl>https://aka.ms/deprecateLicenseUrl</licenseUrl>
+    <description>Some utils activities</description>
+	<icon>packageIcon.png</icon>
+  </metadata>
+</package>

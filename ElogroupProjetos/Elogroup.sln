@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Elogroup.String.UnitTests",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Elogroup.String", "Elogroup.String\Elogroup.String.csproj", "{D71EBD35-1B02-4581-899F-D4376D9A276B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Elogroup.Utils", "Elogroup.Utils\Elogroup.Utils.csproj", "{4A6DC071-132A-4269-A622-83D4383B4A9D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{D71EBD35-1B02-4581-899F-D4376D9A276B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D71EBD35-1B02-4581-899F-D4376D9A276B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D71EBD35-1B02-4581-899F-D4376D9A276B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A6DC071-132A-4269-A622-83D4383B4A9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A6DC071-132A-4269-A622-83D4383B4A9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A6DC071-132A-4269-A622-83D4383B4A9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A6DC071-132A-4269-A622-83D4383B4A9D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

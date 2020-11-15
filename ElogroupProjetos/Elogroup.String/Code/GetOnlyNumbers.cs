@@ -16,7 +16,7 @@ namespace Elogroup.String.Code
 
         public string Execute(string text)
         {
-            var result = Regex.Replace(text, @"[^\d]", string.Empty);
+            var result = Regex.Replace(text, @"[^\d]", string.Empty);           
             
             return result;
         }
