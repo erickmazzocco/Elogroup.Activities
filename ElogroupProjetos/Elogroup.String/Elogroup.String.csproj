@@ -64,7 +64,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Activities\CompareStrings.cs" />
     <Compile Include="Activities\GetOnlyNumbers.cs" />
+    <Compile Include="Code\CompareStrings.cs" />
     <Compile Include="Code\GetOnlyNumbers.cs" />
     <Compile Include="Code\GetTextBetweenKeywords.cs" />
     <Compile Include="Code\RemoveSpecialCharacters.cs" />
