@@ -43,7 +43,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Activities\ConvertFileTo7z.cs" />
+    <Compile Include="Activities\TextFileToDataTable.cs" />
     <Compile Include="Code\ConvertFileTo7z.cs" />
+    <Compile Include="Code\TextFileToDataTable.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
