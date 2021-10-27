@@ -55,6 +55,8 @@ namespace Elogroup.Utils.Code
             var firstLineColumns = lines.ElementAt(0).Split(_breakColumns.ToCharArray()).ToArray();
             if (_hasHeader)
             {
+                lines = lines.Skip(1).ToList();
+
                 foreach (var column in firstLineColumns)
                 {
                     int count = 1;
@@ -75,9 +77,8 @@ namespace Elogroup.Utils.Code
                     dt.Columns.Add("Column " + (i + 1).ToString());
                 }
             }
-
-            var linesLength = lines.Skip(_hasHeader ? 1 : 0).Count();
-            for (int i = 0; i < linesLength; i++)
+             
+            for (int i = 0; i < lines.Count(); i++)
             {
                 var line = lines.ElementAt(i);
 
